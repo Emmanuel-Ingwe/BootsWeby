@@ -1,4 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:400,500,700');
+
 html,
 body {
 	height: 100%;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+/* END MEDIA QUERIES */
+
+/* FIREFOX BUG FIX */
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+	backface-visibility: visible;
+}
+/* END FIREFOX BUG FIX */
