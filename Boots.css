@@ -51,6 +51,33 @@ body {
 
 .btn-primary:hover {
 	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+}
+
+.padding {
+	padding-bottom: 2rem;
+}
+
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+	padding: 2rem 0rem 0rem 0rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin: .3rem 0 0 0;
+	margin: 0rem 0rem 1rem 0rem;
+}
+
+.fa-code {
+	color: #e54d26;
 }
 
 /* MEDIA QUERIES */
