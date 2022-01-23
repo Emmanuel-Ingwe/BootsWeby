@@ -200,22 +200,33 @@ hr.light-100 {
 
 @media (max-width: 576px) {
 	.carousel-caption {
-		top: 45%;
+		top: 40%;
 	}
 
 	.carousel-caption h1 {
-		font-size: 350%;
+		font-size: 250%;
 	}
 
 	.carousel-caption h3 {
-		font-size: 140%;
-		font-weight: 400;
-		padding-bottom: .2rem;
+		font-size: 110%;
 	}
 
 	.carousel-caption .btn {
-		font-size: 95%;
-		padding: 8px 14px;
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+
+	.carousel-indicators {
+		display: none;
+	}
+
+	.display-4 {
+		font-size: 160%;
+	}
+
+	.social a {
+		font-size: 2em;
+		padding: .7rem;
 	}
 }
 /* END MEDIA QUERIES */
